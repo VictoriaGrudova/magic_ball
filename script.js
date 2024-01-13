@@ -57,7 +57,7 @@ const getRequest = () => {
 }
 
 const handleKeyEnter = (e) => {
-    if (e.keyCode === 13) getRequest();  
+    if (e.keyCode === 13) getRequest()  
 };
 
 buttonSelector.addEventListener('click', () => getRequest());
